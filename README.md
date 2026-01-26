@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&background=00000000&vCenter=true&width=435&lines=Hi%2C+I'm+Aina!;AI+%26+Machine+Learning+Engineer;Intelligent+Systems+Graduate;Building+Enterprise+RAG+Systems" alt="Typing Effect" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&background=00000000&vCenter=true&width=500&lines=Hi%2C+I'm+Aina!;AI+%26+Machine+Learning;Intelligent+Systems+Engineering+Graduate" alt="Typing Effect" />
 </div>
 
 <div align="center">
   <h3>🚀 Transforming Data into Intelligence</h3>
   <p>AI & ML Graduate from UiTM | Ex-Intern @ Innoveam Sdn Bhd</p>
   
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">
+  <a href="https://www.linkedin.com/in/nurainabatrisyiamohdfouzi/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:404aina@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
@@ -18,10 +18,10 @@
 
 ## 👩‍💻 About Me
 
-I am a recent **Intelligent Systems Engineering** graduate specializing in **Neuro-Symbolic AI** and **Computer Vision**. My passion lies in solving the "Black Box" problem—building AI systems that are not just powerful, but auditably accurate.
+I am a recent **Intelligent Systems Engineering** graduate specializing in **Intelligent Computing Track**. My passion lies in solving the problem-building AI systems that are not just powerful, but auditably accurate.
 
-* 🔭 I’m currently working on **High-Fidelity RAG Systems** for financial data.
-* 🌱 I’m deeply exploring **Gemini Pro Vision** and **Vector Search Algorithms**.
+* 🔭 I’m working on **High-Fidelity RAG Systems** for coporate data during my internship.
+* 🌱 I’m currently exploring **Computer Vision**, **GenAI** and **Vector Search Algorithms**.
 * ⚡ **Fun fact:** I'm an INFP who loves turning messy data into clean logic!
 
 ---
@@ -47,28 +47,31 @@ I am a recent **Intelligent Systems Engineering** graduate specializing in **Neu
 **Languages**
 <br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 
 **AI & Machine Learning**
 <br>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Google_Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
-<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+<img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 
-**Cloud & DevOps**
+**Cloud, Data & DevOps**
 <br>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+
+**Hardware & IoT**
+<br>
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+<img src="https://img.shields.io/badge/IoT_Prototyping-333333?style=for-the-badge&logo=internetofthings&logoColor=white" />
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=404aina&show_icons=true&theme=radical&hide_border=true" alt="Aina's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=404aina&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
