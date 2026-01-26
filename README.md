@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Aina!
-### AI & Machine Learning Engineer | UiTM Intelligent Systems Graduate
+### UiTM Intelligent Systems Engineering Graduate | AI & Machine Learning 
 
 Welcome to my technical portfolio. I specialize in building neuro-symbolic AI systems, RAG pipelines, and secure enterprise tools.
 
