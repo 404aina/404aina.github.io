@@ -1,83 +1,233 @@
+/* Color Palette & Variables */
 :root {
-    --bg: #0d1117;
-    --card-bg: #161b22;
-    --text: #c9d1d9;
-    --accent: #2196F3;
-    --border: #30363d;
+    --bg-color: #fffaf7; /* Soft cream/off-white background */
+    --nav-bg: #ffc4d0; /* Pastel pink navigation */
+    --text-main: #1a1a1a;
+    --text-muted: #555555;
+    --accent-pink: #d81159; /* Deep pink for highlighted text */
+    --card-bg: #ffffff;
+    --border-color: #e0e0e0;
+    --dark-footer: #1a1a1a;
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-image: 
-        linear-gradient(rgba(33, 150, 243, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(33, 150, 243, 0.05) 1px, transparent 1px);
-    background-size: 50px 50px; /* Size of the grid squares */
-    z-index: -1; /* Puts it behind everything */
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    /* Deep Navy to Dark Purple Gradient */
-    background: linear-gradient(45deg, #090a0f 0%, #1b1b2f 50%, #2d0b3e 100%);
-    background-attachment: fixed; /* Keeps the gradient smooth as you scroll */
-    color: #e0e0e0;
-    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-main);
     font-family: 'Inter', sans-serif;
+    line-height: 1.6;
 }
 
-.hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: radial-gradient(circle at center, #1e293b 0%, #0d1117 100%);
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-bg);
+    padding: 15px 50px;
+    border-bottom: 2px solid var(--text-main);
 }
 
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--text-main);
 }
 
-section {
-    margin-bottom: 60px;
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
-h2 {
-    color: #00d2ff; /* Bright Cyber Blue */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: 'Fira Code', monospace;
-    border-bottom: 2px solid #00d2ff;
-    padding-bottom: 10px;
-}
-
-.project-card {
-    background: rgba(22, 27, 34, 0.8); /* Semi-transparent dark background */
-    border: 1px solid #2196F3;         /* Blue border to match your typing SVG */
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow: 0 0 15px rgba(33, 150, 243, 0.2); /* Soft blue outer glow */
-    backdrop-filter: blur(10px);       /* Blurs the background behind the card */
-    transition: 0.3s ease;
-}
-
-.project-card:hover {
-    box-shadow: 0 0 25px rgba(33, 150, 243, 0.5); /* Stronger glow on hover */
-    transform: translateY(-5px);
-}
-
-.badge-container img {
-    margin: 5px;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: var(--accent);
-    color: white;
+.nav-links a {
     text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+    color: var(--text-main);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.nav-btn {
+    border: 1px solid var(--text-main);
+    padding: 8px 20px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: var(--text-main);
+    color: var(--bg-color);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 0 10%;
+    gap: 100px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    color: var(--text-main);
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: var(--accent-pink);
+}
+
+.tagline {
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.hero-link {
+    text-decoration: none;
+    color: var(--accent-pink);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.hero-link:hover {
+    text-decoration: underline;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* The signature offset shadow from the image */
+.hero-image img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--text-main);
+    box-shadow: 15px 15px 0px var(--text-main);
+}
+
+/* About / Cards Section */
+.about-section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.about-header {
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.about-header h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.about-header p {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+/* 3-Column Grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: var(--card-bg);
+    padding: 40px 25px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--text-main);
+}
+
+.feature-card i {
+    font-size: 2rem;
+    color: var(--text-main);
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* Footer mimicking the dark bottom section in your image */
+.site-footer {
+    background-color: var(--dark-footer);
+    color: #ffffff;
+    padding: 40px 10%;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col h4 {
+    color: var(--nav-bg);
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: var(--nav-bg);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 5%;
+        gap: 50px;
+    }
+    
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
 }
