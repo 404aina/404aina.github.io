@@ -245,3 +245,56 @@ line-height: 1.5;
         display: none; 
     }
 }
+
+/* Footer & Contact Section */
+.footer-section {
+    background-color: #4A4A4A; /* Charcoal grey matching your reference */
+    color: #FDFBF7; /* Cream/White for high contrast */
+    padding-top: 4rem;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5% 3rem 5%;
+}
+
+.footer-content h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.contact-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.footer-content p {
+    color: #D1D5DB; /* Light grey for secondary text */
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-content a {
+    color: #93C5FD; /* Soft blue that stands out on dark backgrounds */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* Copyright Bottom Bar */
+.footer-bottom {
+    border-top: 1px solid #5A5A5A; /* Subtle separator line */
+    text-align: center;
+    padding: 1.5rem 5%;
+    font-size: 0.9rem;
+    color: #A3A3A3; /* Muted text for the copyright */
+    letter-spacing: 0.5px;
+}
